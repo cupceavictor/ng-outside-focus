@@ -1,0 +1,28 @@
+{
+  "name": "outside-click",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cupceavictor/outside-click"
+  },
+  "author": {
+    "name": "Cupcea Victor",
+    "email": "cupcea.v@gmail.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cupceavictor/outside-click/issues"
+  },
+  "main": "outside-click.umd.js",
+  "module": "outside-click.js",
+  "jsnext:main": "outside-click.js",
+  "typings": "outside-click.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
