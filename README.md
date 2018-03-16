@@ -1,11 +1,11 @@
-# outside-click
+# ng-outside-focus
 
 ## Installation
 
 To install this library, run:
 
 ```bash
-$ npm install outside-click --save
+$ npm install ng-outside-focus --save
 ```
 
 ## Consuming your library
@@ -13,7 +13,7 @@ $ npm install outside-click --save
 Once you have published your library to npm, you can import your library in any Angular application by running:
 
 ```bash
-$ npm install outside-click
+$ npm install ng-outside-focus
 ```
 
 and then from your Angular `AppModule`:
@@ -25,7 +25,7 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 // Import your library
-import { SampleModule } from 'outside-click';
+import { NgOutsideFocusModule } from 'ng-outside-focus';
 
 @NgModule({
   declarations: [
@@ -35,7 +35,7 @@ import { SampleModule } from 'outside-click';
     BrowserModule,
 
     // Specify your library as an import
-    LibraryModule
+    NgOutsideFocusModule
   ],
   providers: [],
   bootstrap: [AppComponent]
@@ -47,10 +47,9 @@ Once your library is imported, you can use its components, directives and pipes 
 
 ```xml
 <!-- You can now use your library component in app.component.html -->
-<h1>
+<h1 (ngOutsideFocus)="outsideFocus()">
   {{title}}
 </h1>
-<sampleComponent></sampleComponent>
 ```
 
 ## Development

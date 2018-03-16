@@ -1,15 +1,15 @@
 import { Directive, ElementRef, EventEmitter, OnDestroy, OnInit, Output } from '@angular/core';
 
 @Directive({
-    selector: '[outsideClick]'
+    selector: '[ngOutsideFocus]'
 })
-export class OutsideClickDirective implements OnDestroy, OnInit {
+export class NgOutsideFocusDirective implements OnDestroy, OnInit {
 
-    @Output() outsideClick: EventEmitter<Event>;
+    @Output() ngOutsideFocus: EventEmitter<Event>;
 
 
     constructor(private elementRef: ElementRef) {
-        this.outsideClick = new EventEmitter<Event>();
+        this.ngOutsideFocus = new EventEmitter<Event>();
     }
 
 
@@ -31,7 +31,7 @@ export class OutsideClickDirective implements OnDestroy, OnInit {
 
     private onClick = (event: Event) => {
         if (this.elementRef && !this.elementRef.nativeElement.contains(event.target)) {
-            this.outsideClick.emit(event);
+            this.ngOutsideFocus.emit(event);
         }
     };
 

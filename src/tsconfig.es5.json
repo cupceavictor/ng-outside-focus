@@ -21,8 +21,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "outside-click.js",
-    "flatModuleId": "outside-click"
+    "flatModuleOutFile": "ng-outside-focus.js",
+    "flatModuleId": "ng-outside-focus"
   },
   "files": [
     "./index.ts"

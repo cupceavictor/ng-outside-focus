@@ -1,24 +1,24 @@
 import { NgModule, ModuleWithProviders } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { OutsideClickDirective } from './outside-click.directive';
+import { NgOutsideFocusDirective } from './ng-outside-focus.directive';
 
-export * from './outside-click.directive';
+export * from './ng-outside-focus.directive';
 
 @NgModule({
   imports: [
     CommonModule
   ],
   declarations: [
-      OutsideClickDirective
+      NgOutsideFocusDirective
   ],
   exports: [
-      OutsideClickDirective
+      NgOutsideFocusDirective
   ]
 })
-export class OutsideClickModule {
+export class NgOutsideFocusModule {
   static forRoot(): ModuleWithProviders {
     return {
-      ngModule: OutsideClickModule,
+      ngModule: NgOutsideFocusModule,
       providers: []
     };
   }

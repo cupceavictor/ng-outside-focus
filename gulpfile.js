@@ -125,7 +125,7 @@ gulp.task('rollup:umd', function () {
       // The name to use for the module for UMD/IIFE bundles
       // (required for bundles with exports)
       // See "name" in https://rollupjs.org/#core-functionality
-      name: 'outside-click',
+      name: 'ng-outside-focus',
 
       // See "globals" in https://rollupjs.org/#core-functionality
       globals: {
@@ -133,7 +133,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('outside-click.umd.js'))
+    .pipe(rename('ng-outside-focus.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 

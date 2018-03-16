@@ -1,11 +1,11 @@
 {
-  "name": "outside-click",
+  "name": "ng-outside-focus",
   "version": "0.1.0",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n outside-click -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n ng-outside-focus -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --type-check --project tsconfig.json src/**/*.ts",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/cupceavictor/outside-click"
+    "url": "https://github.com/cupceavictor/ng-outside-focus"
   },
   "author": {
     "name": "Cupcea Victor",
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cupceavictor/outside-click/issues"
+    "url": "https://github.com/cupceavictor/ng-outside-focus/issues"
   },
   "devDependencies": {
     "@angular/cli": "^1.7.3",

@@ -1,9 +1,9 @@
 {
-  "name": "outside-click",
-  "version": "0.1.0",
+  "name": "ng-outside-focus",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cupceavictor/outside-click"
+    "url": "https://github.com/cupceavictor/ng-outside-focus"
   },
   "author": {
     "name": "Cupcea Victor",
@@ -14,12 +14,12 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/cupceavictor/outside-click/issues"
+    "url": "https://github.com/cupceavictor/ng-outside-focus/issues"
   },
-  "main": "outside-click.umd.js",
-  "module": "outside-click.js",
-  "jsnext:main": "outside-click.js",
-  "typings": "outside-click.d.ts",
+  "main": "ng-outside-focus.umd.js",
+  "module": "ng-outside-focus.js",
+  "jsnext:main": "ng-outside-focus.js",
+  "typings": "ng-outside-focus.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",
